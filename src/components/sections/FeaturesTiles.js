@@ -7,7 +7,7 @@ import Image from '../elements/Image';
 const propTypes = {
   ...SectionTilesProps.types
 }
-
+// import './tiles.css';
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'About Me',
+    paragraph: 'Raised in Derby, Kansas my whole life. I started playing sports when I was about 4 years old. Grew up on around 10 acres of land so there was always something for me to do outside. I played 3 sports my freshman year of highschool then after that I decided that baseball was all that I needed. '
   };
 
   return (
@@ -69,7 +69,7 @@ const FeaturesTiles = ({
                       height={64} />
                   </div>
                 </div>
-                <div className="features-tiles-item-content">
+                <div className="features-tiles-item-content tina">
                   <h4 className="mt-0 mb-8">
                     one
                     </h4>
